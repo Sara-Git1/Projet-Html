@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+      margin: 0;
+    }
+  
+  html {
+      scroll-behavior: smooth;
+    }
+.container {
+        margin-top: 25px;
+          position: relative;
+          text-align: center;
+          font-size: 300%;
+          color: white;
+          opacity: 80%;
+  }
+  
+  .centered {
+    position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: #000000;
+          opacity: 100%;
+  }
